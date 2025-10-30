@@ -8,8 +8,8 @@ import pendulum
 
 DB_CONFIG = {
     'user': 'postgres',
-    'pass' : '87214249',
-    'host' : '192.168.101.4',
+    'pass' : 'sua_senha',
+    'host' : 'seu_host',
     'db'   : 'postgres',
     'port' : '5432',
     'schema': 'sch_transferegov',
@@ -75,4 +75,5 @@ with DAG(
     #encadeamento
     dados = extract_api_data() 
     df_transformado = transform_data(dados) 
+
     load_data(df_transformado)
