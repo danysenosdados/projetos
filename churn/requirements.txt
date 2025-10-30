@@ -1,0 +1,13 @@
+
+# Requisitos para o projeto de Análise Preditiva de Churn
+
+# Análise de Dados e Estrutura
+pandas
+numpy
+
+# Visualização
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
